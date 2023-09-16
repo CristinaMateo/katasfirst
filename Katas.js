@@ -8,4 +8,5 @@ function isPalindrome(string) {
       return false
     }
   }
-  console.log(isPalindrome("patata"))
+ 
+  isPalindrome("patata")
