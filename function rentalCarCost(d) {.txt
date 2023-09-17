@@ -1,0 +1,22 @@
+function rentalCarCost(d) {
+ let subtotal = d*40
+ if (d>=3 && d<7){
+   return subtotal-20
+ } else if (d>=7) {
+   return subtotal -50
+ } else {
+   return subtotal
+ }
+}
+
+
+function rentalCarCost(d) {
+ let subtotal = d*40
+ let discount = 0
+if (d>=3 && d<7){
+   discount =20
+ } else if (d>=7) {
+  discount =50
+ }
+return subtotal - discount
+}

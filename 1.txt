@@ -1,0 +1,17 @@
+
+Timmy & Sarah think they are in love, but around where they live, they will only know once they pick a flower each. If one of the flowers has an even number of petals and the other has an odd number of petals it means they are in love.
+Write a function that will take the number of petals of each flower and return true if they are in love and false if they aren't.
+
+
+let herFlower = Math.floor(Math.random ()*20)
+let hisFlower = Math.floor(Math.random ()*20)
+
+console.log('She got a flower with ' + herFlower + ' petals.')
+console.log( 'He got a flower with ' + hisFlower + ' petals.')
+
+
+const inLove = function(herFlower,hisFlower) {
+  return (herFlower%2) !== (hisFlower%2)
+}
+
+inLove (herFlower,hisFlower) ? console.log('They are in love.') : console.log('They are not in love.')
